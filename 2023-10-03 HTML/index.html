@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Táblázatok</title>
+</head>
+<body>
+    <!--
+        Táblázatok:
+        - sorok / oszlopok
+        - sorok és oszlopok metszette: cella
+        - table - táblázat
+        - tr - table row - táblázat sor
+        - td - table data - egy cella lesz a sorban
+        - th - table heading - 'cím' cella
+             - külön formátummal rendelkezik
+    -->
+    <style>
+        th, td{
+            border: 1px black solid;
+        }
+        table{
+            border: 4px solid red;
+            border-collapse: collapse;
+        }
+    </style>
+    <table>
+        <tr>
+            <th>Oszlop 1</th>
+            <th>Oszlop 2</th>
+            <th>Oszlop 3</th>
+        </tr>
+        <tr>
+            <td>Sor 1 - Cella 1</td>
+            <td>Sor 1 - Cella 2</td>
+            <td>Sor 1 - Cella 3</td>
+        </tr>
+        <tr>
+            <td>Sor 2 - Cella 1</td>
+            <td>Sor 2 - Cella 2</td>
+            <td>Sor 2 - Cella 3</td>
+        </tr>
+        <tr>
+            <td>Sor 3 - Cella 1</td>
+            <td></td>
+            <td>Sor 3 - Cella 3</td>
+        </tr>
+        <tr>
+            <td>Sor 4 - Cella 1</td>
+            <td>Sor 4 - Cella 3</td>
+        </tr>
+        <tr>
+            <td colspan="2"> Sor 5 - Első cellája 2 oszlopot foglal el</td>
+            <td>Sor 5 - Cella 2</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Sor 6 - Cella 1</td>
+            <td>Sor 6 - Cella 2</td>
+            <td>Sor 6 - Cella 3</td>
+        </tr>
+        <tr>
+            <td>Sor 7 - Cella 1</td>
+            <td>Sor 7 - Cella 2</td>
+        </tr>
+        <tr>
+            <td>Sor 8 - Cella 1</td>
+            <td>Sor 8 - Cella 2</td>
+        </tr>
+    </table>
+</body>
+</html>

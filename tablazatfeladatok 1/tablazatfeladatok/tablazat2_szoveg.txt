@@ -1,0 +1,4 @@
+Vulkán neve	Hely	Utolsó nagyobb kitörés	Kitörés típusa
+Mt. Lassen	Kalifornia	1914-17	Explozív kitörés
+Mt. Hood	Oregon	1790	Piroklaszt-torlóár és lávafolyás
+Mt .St. Helens	Washington	1980	Explozív kitörés

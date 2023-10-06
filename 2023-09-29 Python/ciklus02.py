@@ -8,12 +8,15 @@ for i in range(2, 21, 2):
     print(i, end=" ")
 print()
 
+
 N = int(input("Kérem mondja meg, hányszor írjuk ki a szöveget: "))
 for i in range(1, N+1):
     print(f"{i}. Megmondtam már {N}-szer, hogy nem írom ki kétszer!")
 for i in range(1,100):
     if i % 7 == 0:
         print(i, end=" ")
+
+#3
 for i in range(7,100,7):
     print(i, end=" ")
 a = int(input("a = "))
