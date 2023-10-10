@@ -1,0 +1,31 @@
+thead{
+    background-color: rgb(112,173,71);
+    color: white;
+    text-align: center;
+}
+table{
+    border: 1px white solid;
+    border-collapse: collapse;
+}
+tbody td:first-child{
+    text-align: left;
+}
+tbody td:last-child{
+    text-align: right;;
+}
+tbody > tr:nth-child(even){
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+tbody > tr:nth-child(odd){
+    background-color: rgb(226, 239, 218);
+    color: black;
+
+    text-align:center;
+}
+tfoot{
+    background-color: rgb(255, 242, 204);
+    color: black;
+    font-weight: bold;
+}

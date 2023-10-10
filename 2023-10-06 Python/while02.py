@@ -22,7 +22,6 @@ while osszeg > 5:
         cimlet = 10
     elif cimlet == 10:
         cimlet = 5
-"""
 #22 feladat:
 while True:
     hetnapja = int(input("Kérem a hét napját: "))
@@ -38,3 +37,23 @@ elif hetnapja == 4:
     print("Csütörtök")
 elif hetnapja == 5:
     print("Péntek")
+"""
+import random
+Anna = "Anni"
+Panna = "Panni"
+dobas = int(input("Hány alkalommal legyen feldobás? "))
+
+while True:
+    if dobas > 0:
+        for i in range(dobas):
+            random1 = random.randint(1, 6)
+            random2 = random.randint(1, 6)
+            random3 = random.randint(1, 6)
+            dobasosszertek = random1+random2+random3
+            if dobasosszertek < 10:
+                print(f"{random1} + {random2} + {random3} = {dobasosszertek}\t Nyert: {Anna}")
+            else:
+                print(f"{random1} + {random2} + {random3} = {dobasosszertek}\t Nyert: {Panna}")
+    else:
+        print("0-nál kissebbett nem lehet dobni!")
+        break
