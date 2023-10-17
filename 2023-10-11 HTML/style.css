@@ -1,0 +1,24 @@
+thead{
+    background-color: rgb(68, 90, 165);
+    color: white;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    font-weight: normal;
+    border: 1px solid white;
+    min-width: 150px;
+}
+td{
+    text-align: right;
+}
+td:first-child{
+    text-align: center;
+}
+tbody > tr:nth-child(odd){
+    background-color: rgb(234, 238, 247)
+}
+tbody > tr:hover{
+    background-color: rgb(204, 214, 236);
+}

@@ -1,0 +1,21 @@
+table{
+    background-color: white;
+    border: 2px blue solid;
+    border-collapse: collapse;
+}
+thead{
+    border: 1px red solid;
+}
+tbody{
+    border: 1px red solid;
+}
+td, th{
+    border: 1px red solid;
+}
+h1{
+    color: darkblue;
+    text-align: left;
+}
+h2{
+    color: brown;
+}
