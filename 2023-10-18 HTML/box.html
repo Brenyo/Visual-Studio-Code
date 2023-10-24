@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            width: 500px;
+            background-color: yellow;
+            border: 2px solid red;
+            margin: 20px;
+            padding: 5px;
+        }
+
+        b {
+            display: inline-block;
+
+            width: 150px;
+            border: 2px solid purple;
+            margin: 15px;
+            padding: 15px;
+        }
+
+        li {
+            margin-top: 15px;
+            border: 1px solid green;
+        }
+
+        ul {
+            /* Default formázás átalakítható tetszőlegesen */
+            padding-left: 0;
+            list-style-type: none;
+        }
+
+        * {
+            box-sizing: border-box;
+            /* Így: width = tartalom + padding + border */
+
+            /* Alapértelmezetten:
+                box-sizing: content-box;
+               Ekkor:
+                width = tartalom, semmi más
+             */
+        }
+
+        #navbar {
+            padding-left: 0;
+            list-style-type: none;
+        }
+
+        #navbar li {
+            display: inline;
+        }
+
+        .hibauzenet {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul id="navbar">
+            <li><a href="#szekcio1">Szekció 1</a></li>
+            <li><a href="#szekcio2">Szekció 2</a></li>
+            <li><a href="#szekcio3">Szekció 3</a></li>
+            <li><a href="#szekcio4">Szekció 4</a></li>
+        </ul>
+    </nav>
+
+    <div style="border-bottom: 1px dotted grey;">
+        <p>Itt egy bekezdés</p>
+        <p>Itt <b>egy</b> <b>másik</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deserunt modi placeat quidem magni, asperiores, inventore tempore fugiat corrupti in nobis ipsam sequi voluptatum voluptate temporibus aperiam saepe eos. Tempore?</p>
+    </div>
+
+    <p>Lorem ipsum <span class="hibauzenet">sit amet consectetur</span> adipisicing elit. Expedita, quis eum ducimus doloribus iusto quae tenetur, reiciendis deserunt sed voluptatem id. Officiis iure officia tempore quasi labore doloremque molestiae minus.</p>
+
+    <ul>
+        <li>elem1</li>
+        <li>elem1</li>
+    </ul>
+
+    <div>
+        asdf
+    </div>
+    <div>
+        asdf
+    </div>
+    <div>
+        asdf <span class="hibauzenet">asfdafsd</span> sadf asdf asdf 
+    </div>
+</body>
+</html>
