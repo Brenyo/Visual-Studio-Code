@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Táblázatok, divek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="hatter-fekete betu-feher">
+    <nav class="betu-sarga list-none inline-block margin-right">
+        <ul>
+            <li><a href="oldal1.html">Címsorok, bekezdések</a></li>
+            <li><a href="oldal2.html">Képek, listák</a></li>
+            <li><a href="oldal3.html">Táblázatok, divek</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="alahuzott">Táblázatok, divek</h1>
+        <section>
+            <h2>Táblázat</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fejlec 1</th>
+                        <th>Fejlec 2</th>
+                        <th>Fejlec 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="szegely-piros betu-piros tablazat">Piros szegély, piros betű</td>
+                        <td class="szegely-kek betu-sarga hatter-zold tablazat">Kék szegély, sárga betű, zöld háttér</td>
+                        <td class="szegely-zold tablazat">Zöld szegély</td>
+                    </tr>
+                    <tr>
+                        <td class="szegely-fehér betu-fekete hatter-piros tablazat">Fehér szegély, fekete betű, piros háttér</td>
+                        <td class="szegely-fehér betu-fekete hatter-zold tablazat">Fehér szegély, fekete betű, zöld háttér</td>
+                        <td class="szegely-fehér betu-fekete hatter-kek tablazat">Fehér szegély, fekete betű, kék háttér</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Divek</h2>
+            <div class="width-50 hatter-sarga szegely-kek betu-zold tablazat">
+                50% széles, sárga háttér, kék szegély, zöld betű
+            </div>
+            <div class="width-25 inline-block hatter-feher betu-fekete szegely-zold tablazat">
+                25% széles, inline block, fehér háttér, fekete betű, zöld szegély
+            </div>
+            <div class="width-25 inline-block hatter-zold betu-piros szegely-kek tablazat">
+                25% széles, inline block, zöld háttér, piros betű, kék szegély
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

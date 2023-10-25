@@ -1,0 +1,229 @@
+.balraigazitt {
+    text-align: left;
+}
+.jobbraigazitt {
+    text-align: right;
+}
+.kozepreigazitt {
+    text-align: center;
+}
+.sorkizart {
+    text-align: justify;
+}
+.felkover {
+    font-weight: bold;
+}
+.dolt {
+    font-style: italic;
+}
+.alahuzott {
+    text-decoration: underline 1px;
+}
+.athuzott {
+    text-decoration: line-through wavy 2px;
+}
+.betu-piros {
+    color: red;
+}
+.hatter-piros {
+    background-color: red;
+}
+.szegely-piros {
+    border-color: red 3px;
+}
+.betu-zold {
+    color: green;
+}
+.hatter-zold {
+    background-color: green;
+}
+.szegely-zold {
+    border-color: green 3px;
+}
+.betu-kek {
+    color: blue;
+}
+.hatter-kek {
+    background-color: blue;
+}
+.szegely-kek {
+    border-color: blue 3px;
+}
+.betu-sarga {
+    color: yellow;
+}
+.hatter-sarga {
+    background-color: yellow;
+}
+.szegely-sarga {
+    border-color: yellow 3px;
+}
+.betu-narancs {
+    color: orange;
+}
+.hatter-narancs {
+    background-color: orange;
+}
+.szegely-narancs {
+    border-color: orange 3px;
+}
+.betu-lila {
+    color: purple;
+}
+.hatter-lila {
+    background-color: purple;
+}
+.szegely-lila {
+    border-color: purple 3px;
+}
+.betu-fekete {
+    color: black;
+}
+.hatter-fekete {
+    background-color: black;
+}
+.szegely-fekete {
+    border-color: black 3px;
+}
+.betu-feher {
+    color: white;
+}
+.hatter-feher {
+    background-color: white;
+}
+.szegely-feher {
+    border-color: white 3px;
+}
+.list-none {
+    list-style: none;
+}
+.list-circle {
+    list-style: circle;
+}
+.list-square {
+    list-style: square;
+}
+.list-disc {
+    list-style: disc;
+}
+.list-decimal {
+    list-style: decimal;
+}
+.list-lowercase {
+    list-style: lower-alpha;
+}
+.list-uppercase {
+    list-style: upper-alpha;
+}
+.list-lowerroman {
+    list-style: lower-roman;
+}
+.list-upperroman {
+    list-style: upper-roman;
+}
+.margin0 {
+    margin: 0;
+}
+.margin1 {
+    margin: 4px;
+}
+.margin2 {
+    margin: 8px;
+}
+.margin3 {
+    margin: 12px;
+}
+.margin4 {
+    margin: 16px;
+}
+.margin-top {
+    margin-top: 10px;
+}
+.margin-bottom {
+    margin-bottom: 10px;
+}
+.margin-left {
+    margin-left: 10px;
+}
+.margin-right {
+    margin-right: 10px;
+}
+.padding-0 {
+    padding: 0px;
+}
+.padding-1 {
+    padding: 4px;
+}
+.padding-2 {
+    padding: 8px;
+}
+.padding-3 {
+    padding: 12px;
+}
+.padding-4 {
+    padding: 16px;
+}
+.padding-top {
+    padding-top: 10px;
+}
+.padding-bottom {
+    padding-bottom: 10px;
+}
+.padding-left {
+    padding-left: 10px;
+}
+.padding-right {
+    padding-right: 10px;
+}
+.inline {
+    display: inline;
+}
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+.width-25 {
+    width: 25%;
+}
+.width-50 {
+    width: 50%;
+}
+.width-75 {
+    width: 75%;
+}
+.width-100 {
+    width: 100%;
+}
+.max-width-25 {
+    max-width: 25%;
+}
+.max-width-50 {
+    max-width: 50%;
+}
+.max-width-75 {
+    max-width: 75;
+}
+.max-width-100 {
+    max-width: 100%;
+}
+.tablazat {
+    border-collapse: collapse;
+    border: 3px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
