@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlapok</title>
+</head>
+<body>
+    <form action="">
+        <label for="nev">Név:</label>
+        <input type="text" placeholder="Add meg a neved">
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Add meg az email címed">
+
+        <br>
+        
+        <label for="telefon">Telefonszám:</label>
+        <input type="tel" id="telefon" placeholder="Telefonszám" name="telefon" >
+
+        <br>
+
+        <label for="jelszo">Jelszó:</label>
+        <input type="password" name="jelszo" id="jelszo" placeholder="Jelszó">
+
+        <br>
+
+        <label for="szuletesiDatum">Születési Dátum:</label>
+        <input type="date" id="szuletesiDatum" name="szuletesiDatum" placeholder="Születési dátum">
+
+        <br>
+
+        <label for="">Nem:</label>
+        <input type="radio" name="nem" id="nem_ferfi" value="Férfi">
+        <label for="nem_ferfi">Férfi</label>
+        <input type="radio" name="nem" id="nem_no" value="Nő">
+        <label for="nem_no">Nő</label>
+        <input type="radio" name="nem" id="nem_egyeb" value="Egyéb">
+        <label for="nem_egyeb">Egyéb</label>
+
+        <br>
+        <label for="iskolaiVegzettseg">Iskolai Végzettség:</label>
+        <select name="iskolaiVegzettseg" id="iskolaiVegzettseg">
+            <option value="altalanos">Általános iskola</option>
+            <option value="szakmunkas">Szakmunkás képző</option>
+            <option value="erettsegi">Érettségi</option>
+            <option value="technikusi">Technikusi</option>
+            <option value="egyetem">Diploma</option>
+        </select>
+        
+        <br>
+
+        <label for="haziallat">Háziállatok száma:</label>
+        <input type="number" name="haziallat" id="haziallat" placeholder="Háziállatok száma">
+
+        <br>
+
+        <label for="megjegyzes">Megjegyzés:</label>
+        <textarea name="megjegyzes" id="megjegyzes" cols="30" rows="10" placeholder="Megjegyzés" style="resize: none;">Megjegyzés tartalma:</textarea>
+
+        <br>
+
+        <label>
+            <input type="checkbox" name="szerzodes" id="szerzodes">
+            Elolvastam  és elfogadom a szerződési feltételeket.
+        </label>
+
+        <br>
+
+        <input type="submit" value="Elküld">
+        <button type="reset">Alaphelyzetbe</button>
+
+    </form>
+</body>
+</html>
