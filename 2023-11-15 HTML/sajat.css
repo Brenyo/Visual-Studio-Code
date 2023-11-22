@@ -1,0 +1,17 @@
+.card-text {
+    text-align: justify;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-footer {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
