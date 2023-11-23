@@ -10,10 +10,6 @@ def szures():
     for i in szavak:
         if len(i)>8:
             print(i)
-
-def terkepezes():
-    for szo in szavak:
-        print(szo.upper())
         
 def szamolas():
     osszesbetukszama = 0
@@ -33,8 +29,7 @@ def veletlen():
             print(i)
             
 
-szures()
-terkepezes()
-szamolas()
-kivalogatas()
-veletlen()
+szures(szavak)
+szamolas(szavak)
+kivalogatas(szavak)
+veletlen(szavak)
