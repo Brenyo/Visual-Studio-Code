@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Új csokoládé</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Csokoládék</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Csokoládék</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="felvetel.html">Új csokoládé</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <form class="container">
+        <h2>Új csokoládé felvétele</h2>
+        <div class="mb-3">
+            <label for="nev" class="form-label">Név</label>
+            <div class="input-group">
+              <input type="text" class="form-control" id="nev" aria-describedby="basic-addon3 basic-addon4" placeholder="Név">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="tipus" class="form-label">Típus</label>
+            <div class="input-group">
+              <input type="text" class="form-control" id="tipus" aria-describedby="basic-addon3 basic-addon4" placeholder="Típus">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="suly" class="form-label">Súly</label>
+            <div class="input-group">
+              <input type="text" class="form-control" id="suly" aria-describedby="basic-addon3 basic-addon4" placeholder="Súly">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="nev" class="form-label">Kép</label>
+            <div class="input-group">
+                <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+            </div>
+            <button type="submit" class="btn btn-success">Felvétel</button>
+            <button type="reset" class="btn btn-danger">Űrlap alaphelyzetbe</button>
+          </div>
+      </form>
+</body>
+</html>
